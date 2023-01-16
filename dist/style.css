@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+ul {
+  list-style: none;
+}
+
+.wrapper {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.header .navigation {
+  padding: 26px 267px 26px 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .navigation .logo {
+  position: relative;
+  bottom: 9px;
+}
+.header .navigation .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+  font-size: 15px;
+}
+.header .header-main {
+  background-image: url(../img/header-main-back.svg);
+  padding: 70px 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 55px;
+}
+.header .header-main .header-main-cont .header-title {
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 44px;
+  color: white;
+}
+.header .header-main .header-main-cont .header-main-text {
+  font-size: 20px;
+  line-height: 26px;
+  margin: 21px 0 25px 0;
+  color: white;
+}
+.header .header-main .header-main-btns {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 37px;
+  text-align: center;
+}
+.header .header-main .header-main-btns .sign {
+  background: black;
+  font-size: 16px;
+  line-height: 22px;
+  color: white;
+  padding: 13px 23px;
+  font-family: Roboto Slab;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.header .header-main .header-main-btns .more {
+  font-size: 16px;
+  line-height: 22px;
+  border: none;
+  background: none;
+  font-family: Roboto Slab;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+.header .partners {
+  padding: 28px 326.5px 52.16px 320.36px;
+  background: #3e5c50;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.header .partners .partners-title {
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.31);
+}
+.header .partners .partners-img {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}

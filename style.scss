@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+ul {
+  list-style: none;
+}
+$second-font: Roboto Slab;
+$main-back: rgba(255, 255, 255, 1);
+@mixin dflex($jc) {
+  display: flex;
+  justify-content: $jc;
+  align-items: center;
+}
+.wrapper {
+  width: 1440px;
+  margin: 0 auto;
+}
+.header {
+  .navigation {
+    padding: 26px 267px 26px 250px;
+    @include dflex(space-between);
+    .logo {
+      position: relative;
+      bottom: 9px;
+    }
+    .menu {
+      @include dflex(center);
+      gap: 34px;
+      font-size: 15px;
+    }
+  }
+  .header-main {
+    background-image: url(../img/header-main-back.svg);
+    padding: 70px 250px;
+    @include dflex(space-between);
+    gap: 55px;
+
+    .header-main-cont {
+      .header-title {
+        font-size: 38px;
+        font-weight: 400;
+        line-height: 44px;
+        color: rgba(255, 255, 255, 1);
+      }
+      .header-main-text {
+        font-size: 20px;
+        line-height: 26px;
+        margin: 21px 0 25px 0;
+        color: rgba(255, 255, 255, 1);
+      }
+    }
+    .header-main-btns {
+      @include dflex(flex-start);
+      gap: 37px;
+      text-align: center;
+
+      .sign {
+        background: rgba(0, 0, 0, 1);
+        font-size: 16px;
+        line-height: 22px;
+        color: rgba(255, 255, 255, 1);
+        padding: 13px 23px;
+        font-family: $second-font;
+        cursor: pointer;
+
+        border-radius: 3px;
+      }
+      .more {
+        font-size: 16px;
+        line-height: 22px;
+        border: none;
+        background: none;
+        font-family: $second-font;
+
+        cursor: pointer;
+        margin: 0;
+        padding: 0;
+      }
+    }
+    .header-main-item {
+    }
+  }
+  .partners {
+    padding: 28px 326.5px 52.16px 320.36px;
+    background: rgba(62, 92, 80, 1);
+    @include dflex(flex-start);
+    flex-direction: column;
+    gap: 15px;
+    .partners-title {
+      font-family: Roboto;
+      font-size: 15px;
+      line-height: 22px;
+      color: rgba(255, 255, 255, 0.31);
+    }
+    .partners-img {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+    }
+  }
+}
