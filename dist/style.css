@@ -98,3 +98,48 @@ ul {
   justify-content: center;
   gap: 50px;
 }
+
+main .sync {
+  padding: 69px 250px 74px 250px;
+}
+main .sync .sync-title {
+  font-size: 29px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+}
+main .sync .sync-subtitle {
+  margin-top: 10px;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 69px;
+}
+main .sync .web-app {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+main .sync .web-app .web-app-cont {
+  margin-top: 35.87px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 17px;
+}
+main .sync .web-app .web-app-cont .web-title {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+}
+main .sync .web-app .web-app-cont .web-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-right: 71px;
+}
